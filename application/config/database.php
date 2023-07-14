@@ -75,19 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	// Version Dev Lokal
-	// 'hostname' => 'localhost',
-	// 'username' => 'root',
-	// 'password' => 'abc',
-	// 'database' => 'cms_prigen_v2',
 
-	// Version Dev Live
-	// 'hostname' => 'localhost',
-	// 'username' => 'root',
-	// 'password' => '',
-	// 'database' => 'gmyyedkenp',
-
-	// nyoba ubah setting database 
+	// dev
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
