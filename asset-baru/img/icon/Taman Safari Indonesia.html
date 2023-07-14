@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><link href="http://localhost/tamansafari/asset/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<link rel="stylesheet" href="Taman%20Safari%20Indonesia_files/bootstrap.css">
+<link rel="stylesheet" href="Taman%20Safari%20Indonesia_files/style.css">
+<link rel="stylesheet" href="Taman%20Safari%20Indonesia_files/style_owl_carousel.css">
+<link rel="stylesheet" href="Taman%20Safari%20Indonesia_files/mobile_style.css">
+<link rel="stylesheet" href="Taman%20Safari%20Indonesia_files/owl_002.css">
+<link rel="stylesheet" href="Taman%20Safari%20Indonesia_files/owl.css">
+<link rel="stylesheet" href="Taman%20Safari%20Indonesia_files/jquery-confirm.css">
+<link href="Taman%20Safari%20Indonesia_files/datepicker.css" rel="stylesheet" type="text/css">
+
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Taman Safari Indonesia</title>
+</head>
+
+<body>
+
+		<!-- navbar -->
+
+
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar_top" style="background-color: rgb(5, 84, 46);">
+			<div class="container">
+
+				<a href="http://localhost/tamansafari/" class="navbar-brand">
+					<img src="Taman%20Safari%20Indonesia_files/logo_tsi.svg" width="155px">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				
+		
+
+
+				
+
+				<div class="collapse navbar-collapse order-3" id="navbarCollapse">
+
+					<ul class="navbar-nav navbar-no-expand ml-auto">
+
+						<li class="nav-item">
+							<a href="#taman" class="nav-link menu_margin"><span class="font_header_nav">Taman</span></a>
+						</li>
+						<li class="nav-item">
+							<a href="#taman" class="nav-link menu_margin"><span class="font_header_nav">Hotel</span></a>
+						</li>
+						<li class="nav-item">
+							<a href="#souvenir" class="nav-link menu_margin"><span class="font_header_nav">Souvenir</span></a>
+						</li>
+						<li class="nav-item">
+							<a href="#news" class="nav-link menu_margin"><span class="font_header_nav">Article</span></a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link menu_margin"><span class="font_header_nav">Contact</span></a>
+						</li>
+						<li class="nav-item mobile_style">
+							<a class="nav-link menu_margin"><span class="vl"></span></a>
+						</li>
+
+												<li class="nav-item">
+							<a href="http://localhost/tamansafari/booking_engine/login" class="nav-link menu_margin"><span class="font_header_nav">Login</span></a>
+						</li>
+						<li class="nav-item">
+							<a href="http://localhost/tamansafari/booking_engine/login" class="nav-link menu_margin"><span class="font_header_nav">Daftar</span></a>
+						</li>
+						
+
+
+
+
+
+
+
+					</ul>
+
+				</div>
+
+			</div>
+		</nav>
+
+<div id="carouselControls" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+				<div class="carousel-item">
+			<a href="https://api.whatsapp.com/send?phone=6282168253000">
+				<img class="d-block w-100 carousel-img" src="Taman%20Safari%20Indonesia_files/164724337534COVERWEBTSIBOGOR.png" alt="First slide">
+			</a>
+		</div>
+				<div class="carousel-item">
+			<a href="#">
+				<img class="d-block w-100 carousel-img" src="Taman%20Safari%20Indonesia_files/164724343051COVERWEBTSIBALI.jpg" alt="First slide">
+			</a>
+		</div>
+				<div class="carousel-item">
+			<a href="">
+				<img class="d-block w-100 carousel-img" src="Taman%20Safari%20Indonesia_files/164724349584COVER_WEB_HOTEL_BAOBAB.jpg" alt="First slide">
+			</a>
+		</div>
+				<div class="carousel-item">
+			<a href="#">
+				<img class="d-block w-100 carousel-img" src="Taman%20Safari%20Indonesia_files/164724354057RSG.jpg" alt="First slide">
+			</a>
+		</div>
+				<div class="carousel-item active">
+			<a href="#">
+				<img class="d-block w-100 carousel-img" src="Taman%20Safari%20Indonesia_files/164981702259WEB_BANNER-01.jpg" alt="First slide">
+			</a>
+		</div>
+			</div>
+	<a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+
+</div>
+
+<div class="container shadow panel_box_filter">
+	<div class="row">
+		<div id="tab_tiket" class="col-sm-6 active_tab">
+			<div id="font_tab_tiket" class="d-flex justify-content-center font_tab_text_active">
+				<img id="img_tab_tiket" src="Taman%20Safari%20Indonesia_files/icon_tab_tiket_active.svg" class="mr-2">Tiket Taman</div>
+		</div>
+		<div id="tab_hotel" class="col-sm-6 inactive_tab">
+			<div id="font_tab_hotel" class="d-flex justify-content-center font_tab_text_inactive">
+				<img id="img_tab_hotel" src="Taman%20Safari%20Indonesia_files/icon_tab_hotel_inactive.svg" class="mr-2">
+				Hotel</div>
+		</div>
+	</div>
+	<form id="form_ticketing" action="http://localhost/tamansafari/booking_engine/taman/index" method="POST">
+		<div id="content_tab_tiket" class="row tabs_tsi shadow">
+			<div class="col-lg-5">
+				<div class="font_gotham_light_deskripsi mt-2 pl-3 mb-1" style="color:black">Pilih Destinasi
+				</div>
+				<div class="form-group">
+					<div class="input-group date" id="tanggal_pesanan" data-target-input="nearest">
+						<select id="taman_choose" name="data[taman]" class="form-control combobox_pilih_taman shadow" style="height:42.97px">
+							<option value="2">Taman Safari Bogor</option>
+							<option value="3">Taman Safari II Jatim</option>
+							<option value="4">Bali Safari Marine Park</option>
+							<option value="5" selected="selected">Safari Beach Jateng</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<div class="font_gotham_light_deskripsi mt-2 pl-3 mb-1" style="color:black">Pilih Tanggal
+				</div>
+				<div class="form-group">
+
+					<div id="date_other_unit" class="input-group date" data-date-format="d MM yyyy">
+						<input class="form-control combobox_tanggal_produk" id="input_dropdown_date_tiket" name="data[tanggal]" type="text" readonly="readonly" value="22 April 2022">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+						<div class="input-group-append" id="btn_dropdown_date_tiket" style="background-color:white">
+							<a class="input-group-text" style="border-color:#05542E; background-color:white; border-bottom-right-radius: 10px; margin-left:-10px;  border-top-right-radius: 10px;" data-target="#tanggal_pesanan" data-toggle="datetimepicker">
+								<img src="Taman%20Safari%20Indonesia_files/btn_icon_arrow.svg"></a>
+						</div>
+					</div>
+
+
+
+					<!-- batang -->
+
+					<div id="date_batang" class="input-group date" data-date-format="d MM yyyy" style="display: none;">
+						<input class="form-control combobox_tanggal_produk" id="input_dropdown_date_tiket" name="data[tanggal_batang]" type="text" readonly="readonly" value="27 April 2022">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+						<div class="input-group-append" id="btn_dropdown_date_tiket" style="background-color:white">
+							<a class="input-group-text" style="border-color:#05542E; background-color:white; border-bottom-right-radius: 10px; margin-left:-10px;  border-top-right-radius: 10px;" data-target="#tanggal_pesanan" data-toggle="datetimepicker">
+								<img src="Taman%20Safari%20Indonesia_files/btn_icon_arrow.svg"></a>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<button type="button" id="btn_cari_tiket" style="margin-top:34px" class="btn btn_cari_tiket shadow">Cari
+					Tiket</button>
+			</div>
+		</div>
+	</form>
+
+
+	<div id="content_tab_hotel" class="row tabs_tsi shadow display_none">
+		<div class="row">
+			<div id="form_mara"></div>
+			<div class="col-lg-3">
+				<div class="font_gotham_light_deskripsi mt-2 pl-3 mb-1" style="color:black">Pilih Hotel</div>
+				<div class="form-group">
+					<div class="input-group date" data-target-input="nearest">
+						<select class="form-control combobox_pilih_taman shadow" id="hotel_data" style="height:42.97px">
+							<option value="rsg" selected="selected">Royal Safari Garden</option>
+							<option value="lodge">Safari Resort</option>
+							<option value="baobab">Baobab Safari Resort</option>
+							<option value="mara">Mara River Safari Lodge</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="font_gotham_light_deskripsi mt-2 pl-3 mb-1" style="color:black">Check In Tanggal
+				</div>
+				<div class="form-group">
+					<div class="input-group date datepicker_web" data-date-format="d MM yyyy">
+						<input type="text" class="form-control combobox_tanggal_produk" id="checkIn" readonly="readonly" value="22 April 2022">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+						<div class="input-group-append" id="btn_startdate_hotel" style="background-color:white">
+							<a class="input-group-text" style="border-color:#05542E; background-color:white; border-bottom-right-radius: 10px; margin-left:-10px;  border-top-right-radius: 10px;" data-target="#tanggal_pesanan" data-toggle="datetimepicker">
+								<img src="Taman%20Safari%20Indonesia_files/btn_icon_arrow.svg"></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="font_gotham_light_deskripsi mt-2 pl-3 mb-1" style="color:black">Check Out Tanggal
+				</div>
+				<div class="form-group">
+
+					<div class="input-group date datepicker_web" id="input_enddate_hotel" data-date-format="d MM yyyy">
+						<input type="text" class="form-control combobox_tanggal_produk" id="checkOut" readonly="readonly" value="22 April 2022">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+						<div class="input-group-append" id="btn_enddate_hotel" style="background-color:white">
+							<a class="input-group-text" style="border-color:#05542E; background-color:white; border-bottom-right-radius: 10px; margin-left:-10px;  border-top-right-radius: 10px;" data-target="#tanggal_pesanan" data-toggle="datetimepicker">
+								<img src="Taman%20Safari%20Indonesia_files/btn_icon_arrow.svg"></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<button id="btn_cari_hotel" style="margin-top:34px" class="btn btn_cari_tiket shadow">Booking
+					Kamar</button>
+			</div>
+		</div>
+
+	</div>
+
+
+</div>
+<div id="taman" class="container-fluid" style="">
+	<div class="text-center font_sub_taman_hotel">Taman &amp; Hotel</div>
+
+	<div class="container mt-4">
+		<div class="row">
+			<!-- taman -->
+						<div class="col-sm-4 mb-4">
+				<div class="card  card_item_image">
+					<img class="card-img-top card_item_image_top " src="Taman%20Safari%20Indonesia_files/164724200456card_tsi_1.png" alt="Card image cap">
+					<div class="card-body card_body_item">
+						<h5 class="card-title font_card_title">Taman Safari Bogor</h5>
+						<p class="card-text font_card_sub_deskripsi">Taman Safari 
+Indonesia - Bogor adalah Pusat Konservasi kelas dunia dan dinobatkan 
+sebagai situs konservasi terbaik oleh Kementerian Kehutanan Indonesia. 
+Terletak di Kabupaten Bogor - Cisarua, Jawa Barat
+</p>
+
+						<div class="row" style="position:absolute;bottom:20px;">
+							<div class="col-sm-6">
+
+																<a href="https://ticketbogor.tamansafari.com/#/home" class="btn btn-primary btn_pesan_tiket shadow"><img src="Taman%20Safari%20Indonesia_files/icon_tiket_white.svg" class="mr-2"><span>Pesan
+										Tiket</span></a>
+															</div>
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								<a href="https://ticketbogor.tamansafari.com/#/home" class="btn_lihat_detail">Lihat Detail <img src="Taman%20Safari%20Indonesia_files/ic_right_arrow.svg"></a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+						<div class="col-sm-4 mb-4">
+				<div class="card  card_item_image">
+					<img class="card-img-top card_item_image_top " src="Taman%20Safari%20Indonesia_files/164724225061card_tsi_2.png" alt="Card image cap">
+					<div class="card-body card_body_item">
+						<h5 class="card-title font_card_title">Taman Safari II Jatim</h5>
+						<p class="card-text font_card_sub_deskripsi">Taman Safari 
+Indonesia - Taman Safari II Jatim adalah Pusat konservasi kelas dunia. 
+Terletak Gn. Princi, Jatiarjo, Kec. Prigen, Pasuruan, Jawa Timur
+</p>
+
+						<div class="row" style="position:absolute;bottom:20px;">
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+
+																<a href="https://ticket.safariprigen.com/#/home" class="btn btn-primary btn_pesan_tiket shadow"><img src="Taman%20Safari%20Indonesia_files/icon_tiket_white.svg" class="mr-2"><span>Pesan
+										Tiket</span></a>
+															</div>
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								<a href="https://ticket.safariprigen.com/#/home" class="btn_lihat_detail">Lihat Detail <img src="Taman%20Safari%20Indonesia_files/ic_right_arrow.svg"></a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+						<div class="col-sm-4 mb-4">
+				<div class="card  card_item_image">
+					<img class="card-img-top card_item_image_top " src="Taman%20Safari%20Indonesia_files/164724231869card_tsi_4.png" alt="Card image cap">
+					<div class="card-body card_body_item">
+						<h5 class="card-title font_card_title">Safari Beach Jateng</h5>
+						<p class="card-text font_card_sub_deskripsi">Safari Beach Jateng merupakan pusat konservasi dolphin atau lumba-lumba pertama dan terlengkap di Indonesia sejak tahun 2010.
+Terletak di Pantai Sigandu, Kabupaten Batang, Jawa Tengah,
+</p>
+
+						<div class="row" style="position:absolute;bottom:20px;">
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+
+																<button id="btn_safari_beach_pesan" class="btn btn-primary btn_pesan_tiket shadow"><img src="Taman%20Safari%20Indonesia_files/icon_tiket_white.svg" class="mr-2"><span>Pesan
+										Tiket</span></button>
+															</div>
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								<a href="" class="btn_lihat_detail">Lihat Detail <img src="Taman%20Safari%20Indonesia_files/ic_right_arrow.svg"></a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+						<div class="col-sm-4 mb-4">
+				<div class="card  card_item_image">
+					<img class="card-img-top card_item_image_top " src="Taman%20Safari%20Indonesia_files/164724239792card_tsi_3.png" alt="Card image cap">
+					<div class="card-body card_body_item">
+						<h5 class="card-title font_card_title">Bali Safari Marine Park</h5>
+						<p class="card-text font_card_sub_deskripsi">Home to over a 
+thousand amazing animals - Bali Safari Park is your destination for an 
+adventurous, fun, educational experience. located at Jalan Bypass Prof. 
+Dr. Ida Bagus Mantra Km. 19,8 Kec. Gianyar, Bali
+</p>
+
+						<div class="row" style="position:absolute;bottom:20px;">
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+
+																<a href="https://booking.balisafarimarinepark.com/#/home" class="btn btn-primary btn_pesan_tiket shadow"><img src="Taman%20Safari%20Indonesia_files/icon_tiket_white.svg" class="mr-2"><span>Pesan
+										Tiket</span></a>
+															</div>
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								<a href="https://booking.balisafarimarinepark.com/#/home" class="btn_lihat_detail">Lihat Detail <img src="Taman%20Safari%20Indonesia_files/ic_right_arrow.svg"></a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			
+			<!-- taman -->
+
+			<!-- hotel -->
+
+						<div class="col-sm-4 mb-4">
+				<div class="card  card_item_image">
+					<img class="card-img-top card_item_image_top " src="Taman%20Safari%20Indonesia_files/164724282832card_tsi_5.png" alt="Card image cap">
+					<div class="card-body card_body_item">
+						<h5 class="card-title font_card_title">Jakarta Aquarium Safari</h5>
+						<p class="card-text font_card_sub_deskripsi">Jakarta Aquarium 
+&amp; Safari, the largest indoor Living Planet in Indonesia, a signature
+ of Taman Safari Indonesia in collaboration with Aquaria KLCC, Malaysia.
+ NEOSOHO @Podomoro City Floor LG 101 - LGM 101 Jalan S.Parman Kav 28, 
+Jakarta Barat
+</p>
+
+
+
+
+
+
+						<div class="row" style="position:absolute;bottom:20px;">
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								
+								<a href="https://ticket.jakartaaquariumsafari.com/" class="btn btn-primary btn_pesan_tiket shadow"><img src="Taman%20Safari%20Indonesia_files/icon_tiket_white.svg" class="mr-2"><span>Pesan Tiket</span></a>
+							</div>
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								<a href="https://ticket.jakartaaquariumsafari.com/" class="btn_lihat_detail" style="margin-top:10px">Lihat
+									Detail <img src="Taman%20Safari%20Indonesia_files/ic_right_arrow.svg"></a>
+							</div>
+
+
+						</div>
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+						<div class="col-sm-4 mb-4">
+				<div class="card  card_item_image">
+					<img class="card-img-top card_item_image_top " src="Taman%20Safari%20Indonesia_files/164724291597lodgePortal.jpg" alt="Card image cap">
+					<div class="card-body card_body_item">
+						<h5 class="card-title font_card_title">Safari Resort</h5>
+						<p class="card-text font_card_sub_deskripsi">Rasakan pengalaman 
+menginap tak terlupakan di Safari Resort. Berlokasi di area Taman Safari
+ Indonesia Cisarua, Bogor. Safari Resort menawarkan suasana hutan tropis
+ perbukitan kaki Gunung Gede Pangrango
+</p>
+
+
+
+
+
+
+						<div class="row" style="position:absolute;bottom:20px;">
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								
+								<a href="https://booking.hotelsafarilodge.com/tamansafaribogor/booking/property/?" class="btn btn-primary btn_pesan_tiket shadow"><img src="Taman%20Safari%20Indonesia_files/icon_tiket_white.svg" class="mr-2"><span>Pesan Kamar</span></a>
+							</div>
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								<a href="https://booking.hotelsafarilodge.com/tamansafaribogor/booking/property/?" class="btn_lihat_detail" style="margin-top:10px">Lihat
+									Detail <img src="Taman%20Safari%20Indonesia_files/ic_right_arrow.svg"></a>
+							</div>
+
+
+						</div>
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+						<div class="col-sm-4 mb-4">
+				<div class="card  card_item_image">
+					<img class="card-img-top card_item_image_top " src="Taman%20Safari%20Indonesia_files/164724299328royalPortal.jpg" alt="Card image cap">
+					<div class="card-body card_body_item">
+						<h5 class="card-title font_card_title">Royal Safari Garden</h5>
+						<p class="card-text font_card_sub_deskripsi">Escape from the city 
+to the cool mountain air and lush landscape of Puncak Highland. Royal 
+Safari Garden is located at Cisarua Puncak-Bogor. A four star hotel 
+&amp; resort with 317 rooms include bungalow and 15 meeting rooms.</p>
+
+
+
+
+
+
+						<div class="row" style="position:absolute;bottom:20px;">
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								
+								<a href="https://reservation.smartbooking-asia.com/booking/index.aspx?hotelcd=HT18005315&amp;lang=EN" class="btn btn-primary btn_pesan_tiket shadow"><img src="Taman%20Safari%20Indonesia_files/icon_tiket_white.svg" class="mr-2"><span>Pesan Kamar</span></a>
+							</div>
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								<a href="https://reservation.smartbooking-asia.com/booking/index.aspx?hotelcd=HT18005315&amp;lang=EN" class="btn_lihat_detail" style="margin-top:10px">Lihat
+									Detail <img src="Taman%20Safari%20Indonesia_files/ic_right_arrow.svg"></a>
+							</div>
+
+
+						</div>
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+						<div class="col-sm-4 mb-4">
+				<div class="card  card_item_image">
+					<img class="card-img-top card_item_image_top " src="Taman%20Safari%20Indonesia_files/164724304950baobabPortal.jpg" alt="Card image cap">
+					<div class="card-body card_body_item">
+						<h5 class="card-title font_card_title">Baobab Safari Resort</h5>
+						<p class="card-text font_card_sub_deskripsi">an African resort in 
+the area of Taman Safari Indonesia II, Prigen, Pasuruan. Located on 
+slopes of Arjuna Mountain, you will disccover the sensation of living in
+ a hotel surrounded by African Savanna completed..., and so on.</p>
+
+
+
+
+
+
+						<div class="row" style="position:absolute;bottom:20px;">
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								
+								<a href="https://booking.baobabsafariresort.com/baobab/booking/property/?" class="btn btn-primary btn_pesan_tiket shadow"><img src="Taman%20Safari%20Indonesia_files/icon_tiket_white.svg" class="mr-2"><span>Pesan Kamar</span></a>
+							</div>
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								<a href="https://booking.baobabsafariresort.com/baobab/booking/property/?" class="btn_lihat_detail" style="margin-top:10px">Lihat
+									Detail <img src="Taman%20Safari%20Indonesia_files/ic_right_arrow.svg"></a>
+							</div>
+
+
+						</div>
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+						<div class="col-sm-4 mb-4">
+				<div class="card  card_item_image">
+					<img class="card-img-top card_item_image_top " src="Taman%20Safari%20Indonesia_files/164724309946maraPortal.jpg" alt="Card image cap">
+					<div class="card-body card_body_item">
+						<h5 class="card-title font_card_title">Mara River Safari Lodge</h5>
+						<p class="card-text font_card_sub_deskripsi">This themed safari 
+resort in Bali gives a unique holiday experience with Safari-inspired 
+ambiance and accommodation. Located within the grounds of Bali Safari 
+Park, all lodges feature an open air terrace, giving guests the 
+opportunity to observe..
+</p>
+
+
+
+
+
+
+						<div class="row" style="position:absolute;bottom:20px;">
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								
+								<a href="https://www.marariversafarilodge.com/rates/room-rates-and-special-offers/" class="btn btn-primary btn_pesan_tiket shadow"><img src="Taman%20Safari%20Indonesia_files/icon_tiket_white.svg" class="mr-2"><span>Pesan Kamar</span></a>
+							</div>
+							<div class="col-sm-6 d-flex flex-column justify-content-center">
+								<a href="https://www.marariversafarilodge.com/rates/room-rates-and-special-offers/" class="btn_lihat_detail" style="margin-top:10px">Lihat
+									Detail <img src="Taman%20Safari%20Indonesia_files/ic_right_arrow.svg"></a>
+							</div>
+
+
+						</div>
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+			
+			<!-- -->
+
+		</div>
+
+	</div>
+
+
+</div>
+
+<!--news -->
+<div id="news" class="background_news">
+	<br>
+	<br>
+	<br>
+
+	<p class="text-center font_sub_taman_hotel">Ada yang baru nih!</p>
+
+	<div class="container mt-4">
+		<!-- news -->
+		<div class="row">
+			<div class="col-sm-12">
+
+
+				<div class="owl-carousel owl-carousel1 owl-theme owl-loaded owl-drag">
+
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+					
+				<div class="owl-stage-outer"><div class="owl-stage" style="transition: all 0s ease 0s; width: 7420px; padding-left: 10px; padding-right: 10px; transform: translate3d(-1480px, 0px, 0px);"><div class="owl-item cloned" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=250&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/250_kurma.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Wow Ada Kurma, "Kuliner Ramadhan" di Baobab Safari Resort!</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item cloned" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=247&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/247_Safari_Water_World.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Rasakan Segarnya Bermain Air di Safari Water World, TSI II Jatim</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item cloned" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=246&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/246_WhatsApp-Image-2022-03-26-at-4.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Ketua MPR RI Beri Nama Dua Anakan Komodo di Bali Safari Park</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item cloned" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=241&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/241_menu_bakulan.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Mencoba Menu Bakulan dari Baobab Safari Resort</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item cloned active" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=240&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/240_8.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Temui Spot Instagrammable di Istana Panda </span>
+							</div>
+						</div>
+					</a></div><div class="owl-item active center" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=256&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/256_Bali-Agung-1.jpeg" alt="">
+							<div class="linear">
+								<span class="text_card">Bali Agung Show is Back!</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item active" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=255&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/255_kartini.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Menyambut Hari Kartini, Taman Safari Indonesia II Jatim Menggelar Kompetisi Foto dan Video</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=254&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/254_Amazing_Australiana.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">�AMAZING AUSTRALIANA�, Konsep Berbuka Ditemani Satwa</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=253&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/253_Ramadhan_free_masuk_new.png" alt="">
+							<div class="linear">
+								<span class="text_card">Ada Kampung Ramadhan di Safari Beach Jateng!</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=252&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/252_WhatsApp_Image_2022-03-29_at_18.jpeg" alt="">
+							<div class="linear">
+								<span class="text_card">Ngabuburit ke Taman Safari, Dijamin Makin Seru! </span>
+							</div>
+						</div>
+					</a></div><div class="owl-item" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=250&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/250_kurma.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Wow Ada Kurma, "Kuliner Ramadhan" di Baobab Safari Resort!</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=247&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/247_Safari_Water_World.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Rasakan Segarnya Bermain Air di Safari Water World, TSI II Jatim</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=246&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/246_WhatsApp-Image-2022-03-26-at-4.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Ketua MPR RI Beri Nama Dua Anakan Komodo di Bali Safari Park</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=241&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/241_menu_bakulan.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Mencoba Menu Bakulan dari Baobab Safari Resort</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=240&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/240_8.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Temui Spot Instagrammable di Istana Panda </span>
+							</div>
+						</div>
+					</a></div><div class="owl-item cloned" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=256&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/256_Bali-Agung-1.jpeg" alt="">
+							<div class="linear">
+								<span class="text_card">Bali Agung Show is Back!</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item cloned" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=255&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/255_kartini.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">Menyambut Hari Kartini, Taman Safari Indonesia II Jatim Menggelar Kompetisi Foto dan Video</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item cloned" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=254&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/254_Amazing_Australiana.jpg" alt="">
+							<div class="linear">
+								<span class="text_card">�AMAZING AUSTRALIANA�, Konsep Berbuka Ditemani Satwa</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item cloned" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=253&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/253_Ramadhan_free_masuk_new.png" alt="">
+							<div class="linear">
+								<span class="text_card">Ada Kampung Ramadhan di Safari Beach Jateng!</span>
+							</div>
+						</div>
+					</a></div><div class="owl-item cloned" style="width: 350px; margin-right: 20px;"><a class="btn_detail_news" href="https://news.tamansafari.com/index.php?id=252&amp;cat_id=&amp;p=&amp;search=#ontitle">
+						<div class="card text-center">
+							<img class="card-img-top" src="Taman%20Safari%20Indonesia_files/252_WhatsApp_Image_2022-03-29_at_18.jpeg" alt="">
+							<div class="linear">
+								<span class="text_card">Ngabuburit ke Taman Safari, Dijamin Makin Seru! </span>
+							</div>
+						</div>
+					</a></div></div></div><div class="owl-nav"><div class="owl-prev" style="background-color: rgba(209, 133, 224, 0);"><img src="Taman%20Safari%20Indonesia_files/icon_arrow_left_carousel.svg"></div><div class="owl-next" style="background-color: rgba(209, 133, 224, 0);"><img src="Taman%20Safari%20Indonesia_files/icon_arrow_right_carousel.svg"></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+
+
+
+
+			</div>
+		</div>
+		<div class="d-flex justify-content-center mt-2">
+			<a href="https://news.tamansafari.com/" class="btn btn-primary btn_pesan_tiket shadow" style="background-color:#754D29;border-color:#754D29">Lihat Semua</a>
+		</div>
+	</div>
+
+
+</div>
+<!--news -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- youtube -->
+<div class="container-fluid">
+	<div class="row">
+				<div class="col-sm-3" style="padding:0px;margin:0px">
+			<a href="https://www.youtube.com/watch?v=suORJrY4ClU">
+				<img class="img-fluid" style="width:100%;height:180px;object-fit: cover;" src="Taman%20Safari%20Indonesia_files/hqdefault_006.jpg">
+				<div class="linear_sosmed">
+					<table class="detil_text_sosmed" width="100%">
+						<tbody><tr>
+							<td valign="top"><img class="mr-2" src="Taman%20Safari%20Indonesia_files/icon_logo_tsi_somed.png"></td>
+							<td style="padding-right:20px"><span>INI DIA PARA KARTINI DI BALI SAFARI</span></td>
+						</tr>
+					</tbody></table>
+				</div>
+			</a>
+		</div>
+				<div class="col-sm-3" style="padding:0px;margin:0px">
+			<a href="https://www.youtube.com/watch?v=WRhWrhxDIDM">
+				<img class="img-fluid" style="width:100%;height:180px;object-fit: cover;" src="Taman%20Safari%20Indonesia_files/hqdefault_007.jpg">
+				<div class="linear_sosmed">
+					<table class="detil_text_sosmed" width="100%">
+						<tbody><tr>
+							<td valign="top"><img class="mr-2" src="Taman%20Safari%20Indonesia_files/icon_logo_tsi_somed.png"></td>
+							<td style="padding-right:20px"><span>HIDUPKAN KENANGAN LAMA DI BALI SAFARI</span></td>
+						</tr>
+					</tbody></table>
+				</div>
+			</a>
+		</div>
+				<div class="col-sm-3" style="padding:0px;margin:0px">
+			<a href="https://www.youtube.com/watch?v=xQ402oF9t_o">
+				<img class="img-fluid" style="width:100%;height:180px;object-fit: cover;" src="Taman%20Safari%20Indonesia_files/hqdefault.jpg">
+				<div class="linear_sosmed">
+					<table class="detil_text_sosmed" width="100%">
+						<tbody><tr>
+							<td valign="top"><img class="mr-2" src="Taman%20Safari%20Indonesia_files/icon_logo_tsi_somed.png"></td>
+							<td style="padding-right:20px"><span>HIDUPKAN KENANGAN LAMA DI TAMAN SAFARI INDONESIA II JATIM</span></td>
+						</tr>
+					</tbody></table>
+				</div>
+			</a>
+		</div>
+				<div class="col-sm-3" style="padding:0px;margin:0px">
+			<a href="https://www.youtube.com/watch?v=JyI40psk2AI">
+				<img class="img-fluid" style="width:100%;height:180px;object-fit: cover;" src="Taman%20Safari%20Indonesia_files/hqdefault_002.jpg">
+				<div class="linear_sosmed">
+					<table class="detil_text_sosmed" width="100%">
+						<tbody><tr>
+							<td valign="top"><img class="mr-2" src="Taman%20Safari%20Indonesia_files/icon_logo_tsi_somed.png"></td>
+							<td style="padding-right:20px"><span>HIDUPKAN KENANGAN LAMA DI TAMAN SAFARI INDONESIA BOGOR</span></td>
+						</tr>
+					</tbody></table>
+				</div>
+			</a>
+		</div>
+				<div class="col-sm-3" style="padding:0px;margin:0px">
+			<a href="https://www.youtube.com/watch?v=laJ3GwP6LqU">
+				<img class="img-fluid" style="width:100%;height:180px;object-fit: cover;" src="Taman%20Safari%20Indonesia_files/hqdefault_003.jpg">
+				<div class="linear_sosmed">
+					<table class="detil_text_sosmed" width="100%">
+						<tbody><tr>
+							<td valign="top"><img class="mr-2" src="Taman%20Safari%20Indonesia_files/icon_logo_tsi_somed.png"></td>
+							<td style="padding-right:20px"><span>BONESIA, GAJAH PINTAR YANG SUDAH BERUMUR 1 TAHUN</span></td>
+						</tr>
+					</tbody></table>
+				</div>
+			</a>
+		</div>
+				<div class="col-sm-3" style="padding:0px;margin:0px">
+			<a href="https://www.youtube.com/watch?v=zEKSgyWb6BQ">
+				<img class="img-fluid" style="width:100%;height:180px;object-fit: cover;" src="Taman%20Safari%20Indonesia_files/hqdefault_004.jpg">
+				<div class="linear_sosmed">
+					<table class="detil_text_sosmed" width="100%">
+						<tbody><tr>
+							<td valign="top"><img class="mr-2" src="Taman%20Safari%20Indonesia_files/icon_logo_tsi_somed.png"></td>
+							<td style="padding-right:20px"><span>Ada yang bisa tebak? Satwa apakah ini? ????</span></td>
+						</tr>
+					</tbody></table>
+				</div>
+			</a>
+		</div>
+				<div class="col-sm-3" style="padding:0px;margin:0px">
+			<a href="https://www.youtube.com/watch?v=QzjRb96Xb28">
+				<img class="img-fluid" style="width:100%;height:180px;object-fit: cover;" src="Taman%20Safari%20Indonesia_files/hqdefault_008.jpg">
+				<div class="linear_sosmed">
+					<table class="detil_text_sosmed" width="100%">
+						<tbody><tr>
+							<td valign="top"><img class="mr-2" src="Taman%20Safari%20Indonesia_files/icon_logo_tsi_somed.png"></td>
+							<td style="padding-right:20px"><span>PROGRAM JALITENG! SIMAK PENJELASANNYA DISINI!</span></td>
+						</tr>
+					</tbody></table>
+				</div>
+			</a>
+		</div>
+				<div class="col-sm-3" style="padding:0px;margin:0px">
+			<a href="https://www.youtube.com/watch?v=nRjFDnvLSQI">
+				<img class="img-fluid" style="width:100%;height:180px;object-fit: cover;" src="Taman%20Safari%20Indonesia_files/hqdefault_005.jpg">
+				<div class="linear_sosmed">
+					<table class="detil_text_sosmed" width="100%">
+						<tbody><tr>
+							<td valign="top"><img class="mr-2" src="Taman%20Safari%20Indonesia_files/icon_logo_tsi_somed.png"></td>
+							<td style="padding-right:20px"><span>SELAMAT HARI BERUANG SEDUNIA ???? TERNYATA TAMAN SAFARI PUNYA BEBERAPA JENIS BERUANG, LHO!</span></td>
+						</tr>
+					</tbody></table>
+				</div>
+			</a>
+		</div>
+			</div>
+</div>
+
+
+
+<!-- souvenir -->
+
+<div id="souvenir" class="background_souvenir">
+	<div class="container">
+		<br>
+		<br>
+		<br>
+		<p class="text-center font_sub_taman_hotel">Belanja Souvenir</p>
+
+		<div class="row">
+			
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Trying to get property 'data' of non-object</p>
+<p>Filename: views/view_home.php</p>
+<p>Line Number: 390</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /opt/lampp/htdocs/tamansafari/application/views/view_home.php<br>
+			Line: 390<br>
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /opt/lampp/htdocs/tamansafari/application/controllers/Home.php<br>
+			Line: 44<br>
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /opt/lampp/htdocs/tamansafari/index.php<br>
+			Line: 352<br>
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Invalid argument supplied for foreach()</p>
+<p>Filename: views/view_home.php</p>
+<p>Line Number: 390</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /opt/lampp/htdocs/tamansafari/application/views/view_home.php<br>
+			Line: 390<br>
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /opt/lampp/htdocs/tamansafari/application/controllers/Home.php<br>
+			Line: 44<br>
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /opt/lampp/htdocs/tamansafari/index.php<br>
+			Line: 352<br>
+			Function: require_once			</p>
+
+		
+	
+
+</div>		</div>
+	</div>
+</div>
+
+<!-- souvenir -->
+
+
+
+<!-- Hubungi Kami -->
+
+<div id="contact" class="container mb-4">
+	<br>
+	<br>
+	<br>
+	<p class="text-center font_sub_taman_hotel">Hubungi Kami</p>
+	<div class="row">
+		<div class="col-sm-9">
+			<iframe src="Taman%20Safari%20Indonesia_files/embed.html" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="367.2px" frameborder="0"></iframe>
+		</div>
+		<div class="col-sm-3" style="text-align:right">
+			<div>
+				<span class="font_gotham_bold_18px">Kantor Utama</span>
+				<br>
+				<span class="font_gotham_light_16px">Jalan Gandaria Tengah III No.62 A-C Kebayoran Baru, DKI
+					Jakarta 12130</span>
+			</div>
+			<div>
+				<span class="font_gotham_bold_18px">Telephone</span>
+				<br>
+				<span class="font_gotham_light_16px">+62217208880 | 1500-212 <br>(Go Safari)</span>
+			</div>
+			<div>
+				<span class="font_gotham_bold_18px">Email</span>
+				<br>
+				<span class="font_gotham_light_16px">informasi@tamansafari.com</span>
+			</div>
+			<div>
+				<span class="font_gotham_bold_18px">Ikuti kami di</span>
+				<br>
+				<table class="mt-2" align="right">
+					<tbody><tr>
+						<td><a href="https://www.facebook.com/TamanSafariIndonesiaGroup/"><img src="Taman%20Safari%20Indonesia_files/icon_facebook.svg"></a></td>
+						<td><a href="https://www.youtube.com/channel/UC3GakgbQenPxUhJqYP9NCeA?view_as=subscriber"><img src="Taman%20Safari%20Indonesia_files/icon_youtube.svg"></a></td>
+						<td><a href="https://www.instagram.com/taman_safari/?hl=en"><img src="Taman%20Safari%20Indonesia_files/icon_instagram.svg"></a></td>
+					</tr>
+				</tbody></table>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<!-- modal -->
+<div class="modal fade" id="dialogModal" tabindex="-1" role="dialog" aria-labelledby="dialogModalLabel" aria-hidden="true">
+	<div class="modal-dialog  modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header" style="border-bottom: 0px;padding-bottom:0px">
+				<h5 class="modal-title font_gotham_bold_18px" id="modal_title_news"></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+			</div>
+			<div class="modal-body" id="modal_body_news">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal -->
+
+
+
+
+
+<!-- Hubungi Kami -->
+
+
+<!-- footer -->
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="font_gotham_bold_18px mt-4">Anggota dari</div>
+				<table class="mt-2" align="left">
+					<tbody><tr>
+						<td><img class="img-fluid" src="Taman%20Safari%20Indonesia_files/anggota_1.svg"></td>
+						<td><img class="img-fluid" src="Taman%20Safari%20Indonesia_files/anggota_2.svg"></td>
+						<td><img class="img-fluid" src="Taman%20Safari%20Indonesia_files/anggota_3.svg"></td>
+					</tr>
+				</tbody></table>
+
+			</div>
+			<div class="col-sm-6">
+				<div class="mt-4 text-right font_gotham_bold_18px">Taman Safari Indonesia Group</div>
+				<img class="img-fluid" src="Taman%20Safari%20Indonesia_files/tsi_group.svg">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+
+
+
+<!--fab-->
+
+<div class="mobile_style btn-group-fab text-align-right" role="group" aria-label="FAB Menu">
+	<div class="btn d-flex justify-content-end">
+		<a href="https://wa.me/628111327000" target="_blank">
+			<img src="Taman%20Safari%20Indonesia_files/fab_wa.svg" width="200px">
+		</a>
+	</div>
+
+	<div class="btn d-flex justify-content-end">
+		<a href="tel:1500212">
+		<img src="Taman%20Safari%20Indonesia_files/fab_number.svg" width="200px">
+		</a>
+	</div>
+
+</div>
+
+
+<!-- footer line-->
+
+<div class="footer_line">
+	<div>© Taman Safari Indonesia. Semua hak dilindungi undang-undang. </div>
+</div>
+
+
+
+
+
+<script src="Taman%20Safari%20Indonesia_files/jquery.js"></script>
+<script src="Taman%20Safari%20Indonesia_files/axios.js"></script>
+<script src="Taman%20Safari%20Indonesia_files/bootstrap.js"></script>
+<script src="Taman%20Safari%20Indonesia_files/js.js"></script>
+<script src="Taman%20Safari%20Indonesia_files/hotel.js"></script>
+<script src="Taman%20Safari%20Indonesia_files/modal.js"></script>
+<script src="Taman%20Safari%20Indonesia_files/owl.js"></script>
+<script src="Taman%20Safari%20Indonesia_files/bootstrap-datepicker.js"></script>
+<script src="Taman%20Safari%20Indonesia_files/wb.js"></script>
+<script src="Taman%20Safari%20Indonesia_files/jquery-confirm.js"></script>
+
+
+
+
+<script>
+	var base_url = "http://localhost/tamansafari/";
+
+	$("#date_batang").hide();
+	$(function () {
+
+		$("#box_fix_sosial_media").stickylayer({
+			orientation: 2,
+			position: [0, 0],
+			delay: 500
+		});
+		date_picker_config();
+	});
+
+	function date_picker_config() {
+		var date_detail = new Date();
+		date_detail.setDate(date_detail.getDate());
+		$(".datepicker_web").datepicker({
+			autoclose: true,
+			startDate: '+0d',
+			todayHighlight: true
+		}).datepicker('update', date_detail);
+
+
+		var startdate_batang = new Date("2022-04-27");
+		var enddate_batang = new Date("2022-04-29");
+
+		var date_now_batang = startdate_batang;
+		if (startdate_batang < date_detail) {
+			date_now_batang = date_detail;
+		}
+
+
+		$("#date_batang").datepicker({
+			autoclose: true,
+			startDate: startdate_batang,
+			endDate: enddate_batang,
+			todayHighlight: true
+		}).datepicker('update', date_now_batang);
+
+		$("#date_other_unit").datepicker({
+			autoclose: true,
+			startDate: '+0d',
+			todayHighlight: true
+		}).datepicker('update', date_detail);
+
+	}
+
+</script>
+
+<script>
+	var base_url = "http://localhost/tamansafari/";
+	var loading;
+	alert_loading("", "supervan");
+
+	var scroll = $(window).scrollTop();
+
+	$(window).scroll(function (event) {
+		var scroll = $(window).scrollTop();
+		scroll_navbar(scroll);
+	});
+	scroll_navbar(scroll);
+
+
+	$("#btn_dropdown_date_tiket").on('click', function () {
+		$("#input_dropdown_date_tiket").focus();
+	});
+
+	$("#btn_startdate_hotel").on('click', function () {
+		$("#checkIn").focus();
+	});
+
+	$("#btn_enddate_hotel").on('click', function () {
+		$("#checkOut").focus();
+	});
+
+
+
+	function alert_loading(title, theme) {
+		loading = $.confirm({
+			title: title,
+			content: `<div class="spinner-grow" role="status">
+			<span class="sr-only">Loading...</span>
+		  </div>`,
+			theme: theme,
+			typeAnimated: true,
+			buttons: false,
+			closeIcon: false
+		});
+	}
+
+	function scroll_navbar(scroll) {
+		if (!window.matchMedia("(max-width: 767px)").matches) {
+			var color = '#05542E';
+			var color_navbar = 0;
+			if (scroll < 40) {
+				$('#navbar_top').addClass("navbar_background");
+			}
+			if (scroll > 40) {
+				color_navbar = "0.3";
+				$('#navbar_top').removeClass("navbar_background");
+			}
+			if (scroll > 60) {
+				color_navbar = "0.5";
+				$('#navbar_top').removeClass("navbar_background");
+			}
+			if (scroll > 140) {
+				color_navbar = "0.8";
+				$('#navbar_top').removeClass("navbar_background");
+			}
+			if (scroll > 150) {
+				color_navbar = "1";
+				$('#navbar_top').removeClass("navbar_background");
+			}
+			var rgbaCol = 'rgba(' + parseInt(color.slice(-6, -4), 16) +
+				',' + parseInt(color.slice(-4, -2), 16) +
+				',' + parseInt(color.slice(-2), 16) +
+				',' + color_navbar + ')';
+			$('#navbar_top').css('background-color', rgbaCol);
+
+		}
+	}
+
+</script>
+
+
+<!-- carousel -->
+
+<script>
+	$(document).ready(function () {
+		var silder = $(".owl-carousel");
+		silder.owlCarousel({
+			autoplay: false,
+			autoplayTimeout: 3000,
+			autoplayHoverPause: false,
+			items: 1,
+			responsiveClass: true,
+			stagePadding: 10,
+			center: true,
+			nav: true,
+			margin: 20,
+			dots: true,
+			loop: true,
+			responsive: {
+				0: {
+					items: 1,
+					nav: true,
+					navText: ["<img src='" + base_url + "asset/img/icon/icon_arrow_left_carousel.svg'>",
+						"<img src='" + base_url + "asset/img/icon/icon_arrow_right_carousel.svg'>"
+					]
+				},
+				680: {
+					items: 2,
+					nav: true,
+					navText: ["<img src='" + base_url + "asset/img/icon/icon_arrow_left_carousel.svg'>",
+						"<img src='" + base_url + "asset/img/icon/icon_arrow_right_carousel.svg'>"
+					]
+
+				},
+				1000: {
+					items: 3,
+					nav: true,
+					navText: ["<img src='" + base_url + "asset/img/icon/icon_arrow_left_carousel.svg'>",
+						"<img src='" + base_url + "asset/img/icon/icon_arrow_right_carousel.svg'>"
+					]
+				}
+			}
+
+		});
+
+		$(".owl-prev").css("background-color", "hsla(290,60%,70%,0)");
+		$(".owl-next").css("background-color", "hsla(290,60%,70%,0)");
+
+
+
+		loading.close();
+
+	});
+
+</script>
+
+<script>
+	$("#taman_choose").on('click', function () {
+		var taman = $("#taman_choose option:selected").val();
+		if (taman == "5") {
+			$("#date_batang").show();
+			$("#date_other_unit").hide();
+		} else {
+			$("#date_batang").hide();
+			$("#date_other_unit").show();
+		}
+	});
+
+	$("#taman_choose").on('change', function () {
+		var taman = $("#taman_choose option:selected").val();
+		if (taman == "5") {
+			$("#date_batang").show();
+			$("#date_other_unit").hide();
+		} else {
+			$("#date_batang").hide();
+			$("#date_other_unit").show();
+		}
+	});
+
+	$("#btn_cari_tiket").on('click', function () {
+		var taman = $("#taman_choose option:selected").val();
+		if (taman == "2") {
+			window.open('https://ticket.tamansafaribogor.com/', '_blank').focus();
+		} else if (taman == "3") {
+			window.open('https://ticket.safariprigen.com/', '_blank').focus();
+		} else if (taman == "4") {
+			window.open('https://booking.balisafarimarinepark.com/', '_blank').focus();
+		} else if (taman == "5") {
+			$("#form_ticketing").submit();
+		}
+	});
+
+
+	$("#btn_safari_beach_pesan").on('click', function () {
+		$("#taman_choose").val("5");
+		$("#form_ticketing").submit();
+	});
+
+</script>
+
+
+<script>
+	$("a[href^='#']").on('click', function (e) {
+
+		// prevent default anchor click behavior
+		e.preventDefault();
+
+		// store hash
+		var hash = this.hash;
+
+		// animate
+		$('html, body').animate({
+			scrollTop: $(hash).offset().top
+		}, 500, function () {
+
+			// when done, add hash to url
+			// (default click behaviour)
+			window.location.hash = hash;
+		});
+
+	});
+
+</script>
+</body></html>

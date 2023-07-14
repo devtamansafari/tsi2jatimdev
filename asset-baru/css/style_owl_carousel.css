@@ -1,0 +1,115 @@
+.padding_image_news{
+    padding: 10px;
+}
+
+.owl-item {
+    /* opacity: 0.5; */
+    transition: all 0.3s;
+}
+
+.owl-stage .card {
+    background-color: transparent;
+    border: 0;
+}
+
+
+.owl-stage .center {
+    /* opacity: 1; */
+}
+
+.owl-stage .active .card-img-top {
+    margin-top: 28px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.linear{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 50%;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.text_card{
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    font-family: "GothamBold";
+    color: white;
+    bottom: 20px;
+    text-align: left;
+}
+
+
+.detil_text_sosmed{
+    border: 0;
+    position: absolute;
+    font-family: "GothamBold";
+    color: white;
+    bottom: 10px;
+    left: 10px;
+    font-size: 10px;
+    text-align: left;
+}
+
+
+.linear_sosmed{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    height: 400px;
+  }
+
+
+.owl-stage .center .card-img-top {
+    margin-top: 0px;
+    opacity: 1;
+    object-fit: cover;
+    height: 400px;
+}
+
+.owl-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+}
+.owl-nav .owl-prev{
+    outline: 0;
+    left: -60px;
+    position: absolute;
+}
+
+.owl-dots{
+    margin-top: 20px;
+}
+
+.owl-nav .owl-next{
+    outline: 0;
+    right: -60px;
+    position: absolute;
+}
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    outline: 0;
+  }
+  .owl-carousel button.owl-dot {
+    outline: 0;
+  }
+
+

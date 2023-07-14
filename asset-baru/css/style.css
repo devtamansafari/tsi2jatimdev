@@ -1,0 +1,497 @@
+body {
+	background-image: url(../img/img/background_body.svg);
+}
+
+
+.background_news{
+	background-image: url(../img/img/background_news.jpg?2131231);
+	height: 700px;
+}
+
+.background_souvenir{
+	background-image: url(../img/img/background_souvenir.jpg);
+}
+
+
+
+
+
+.navbar_background{
+	background-image: linear-gradient(rgb(26, 25, 25,0.5), transparent); 
+}
+
+
+.shadow-sm {
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  
+  .shadow {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .shadow-lg {
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  }
+  
+  .shadow-none {
+	box-shadow: none !important;
+  }
+  
+  /* navbar dropdown  */
+  .dropdown:hover .dropdown-menu{
+	display: block;
+  }
+   /* drop down */
+   .dropdown-menu{
+    border: none !important;
+    /* outline: none; */
+    background-color: #f4f4f4 !important;
+    /* width: 200px; */
+	
+  }
+  .dropdown-item{
+	color: #05542E !important;
+  }
+  .dropdown-item:hover {
+	margin-left: 10px;
+	margin-right: 10px;
+    border: none !important;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #8DC440;
+    transition: 0.5s ease-in-out;
+	color: #FFFFFF !important;
+  }
+
+
+.font_gotham_bold_18px{
+	font-size: 18px;	
+	font-family: "GothamBold";
+	color: #05542E;
+}
+
+
+.font_gotham_bold_12px{
+	font-size: 12px;	
+	font-family: "GothamBold";
+	color: #05542E;
+}
+
+.font_gotham_light_16px{
+	font-size: 16px;	
+	font-family: "GothamLight";
+	color: #05542E;
+}
+
+.font_gotham_light_12px{
+	font-size: 12px;	
+	font-family: "GothamLight";
+	color: #05542E;
+}
+
+.vl {
+	margin-left: 3px;
+	margin-right: 3px;
+	border-left: 2px solid white;
+	height: 120px;
+}
+
+.fixed_center_right{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	top: 50%;
+	right: 0;
+}
+
+.btn-group-fab {
+	z-index: 100000000000000000;
+    position: fixed;
+    height: auto;
+    right: 0px; bottom: 20px;
+  }
+  .btn-group-fab div {
+    position: relative; width: 100%;
+    height: auto;
+  }
+/* .btn-group-fab-kiri {
+	z-index: 100000000000000000;
+    position: fixed;
+    height: auto;
+    left: 10%; top: 120px;
+  }
+  .btn-group-fab-kiri div {
+    position: relative; 
+	width: 100%;
+    height: auto;
+  }
+  */
+
+.carousel-img {
+    max-height: 550px;
+    min-height: 550px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.panel_box_filter{
+	position: relative;
+	bottom: 90px;
+	left:0;
+	right:0
+}
+
+
+.menu_margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* card */
+.card_item_image_top{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+	object-position: top;
+    object-fit: cover;
+	min-height: 280px;
+	max-height: 280px;
+
+}
+
+.card_item_image{
+	border: #FFFFFF;
+	border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+	height: 510px;
+
+}
+
+/* card */
+
+
+
+
+
+/* tab */
+
+.active_tab {
+	background-color: white;
+	padding-top: 8px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.inactive_tab {
+	padding-top: 8px;
+	background-color: #05542E;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+
+.font_label_tab {
+	font-family: "GothamLight";
+	font-size: 12px;
+	color: #000000;
+}
+
+
+.font_card_title{
+	font-family: "GothamBold";
+	font-size: 21px;
+	color: #05542E;
+}
+
+.font_card_sub_deskripsi{
+	font-family: "GothamLight";
+	font-size: 11.5px;
+	font-weight: 325;
+	line-height: 16px;
+	color: #004422;
+}
+
+
+.footer{
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer_line{
+	padding-top: 5px;
+	width: 100%;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	font-family: "GothamLight";
+	background-image: url(../img/img/footer_background.svg);
+	height: 33.36px;
+}
+
+
+
+
+/* custom */
+.font_custom_header{
+	font-family: "MikadoBold";
+	font-size: 58.8px;
+	color: #05542E;
+}
+
+.font_custom_sub_header{
+	font-family: "MikadoBold";
+	font-size: 18.8px;
+	color: #05542E;
+}
+
+.font_deskripsi{
+	font-family: "GothamLight" !important;
+	color: #05542E !important;
+	font-size: 18.8px !important;
+}
+
+
+.btn-outline-success{
+	
+	color: #05542E !important;
+	font-family: "GothamMedium";
+	/* border-radius:10%; */
+	border: 2px solid #05542E;
+	font-size: 16.9775px;
+}
+.btn-outline-success:hover{
+	
+	color: #fff !important;
+	font-family: "GothamMedium";
+	/* border: 2px solid #05542E; */
+	font-size: 16.9775px;
+	background-color: #05542E !important;
+}
+.btn-outline-success.active{
+	background-color: #05542E !important;
+	color: #fff !important;
+	font-family: "GothamMedium";
+	/* border: 2px solid #05542E; */
+	font-size: 16.9775px;
+}
+
+.text_custom{
+	color:#05542E !important;
+	font-family: "GothamMedium";
+	font-size: 16.9775px;
+	border: 2px solid #05542E;
+	font-weight: bolder;
+
+}
+.text_custom:hover{
+	color:#FFFFFF !important;
+	font-family: "GothamMedium";
+	font-size: 16.9775px;
+	background-color: #05542E;
+
+}
+
+
+/*  */
+
+.font_sub_taman_hotel {
+	font-family: "MikadoBold";
+	font-size: 58.8px;
+	color: #05542E;
+}
+
+.font_tab_text_active {
+	font-family: "MikadoBold";
+	font-size: 28px;
+	color: #05542E;
+}
+
+
+.font_tab_text_inactive {
+	font-family: "MikadoBold";
+	font-size: 28px;
+	color: white;
+}
+
+.font_gotham_light_deskripsi {
+	font-family: "GothamLight";
+	color: #05542E;
+	font-size: 12px;
+}
+
+
+.combobox_tanggal_produk {
+	font-family: "GothamMedium";
+	/* background-color:#FFEFCF;  */
+	font-size: 17px;
+	color: #004422;
+	height: 42.97px;
+	padding-left: 10px;
+	border-radius: 10px;
+	border-left-color: #004422;
+	border-top-color: #004422;
+	border-bottom-color: #004422;
+	border-right-color: white;
+	border-style: solid;
+	border-width: 0.46px;
+}
+
+.combobox_tanggal_produk:read-only {
+	font-family: "GothamMedium";
+	background-color:white; 
+	font-size: 17px;
+	color: #004422;
+	height: 42.97px;
+	padding-left: 10px;
+	border-radius: 10px;
+	border-top: 1px solid #004422 ;
+	border-bottom: 1px solid #004422 ;
+	border-left: 1px solid #004422 ;
+
+}
+
+
+.display_none{
+	display: none;
+}
+
+
+.combobox_pilih_taman {
+	font-family: "GothamMedium";
+	/* background-color:#FFEFCF;  */
+	font-size: 17px;
+	color: #004422;
+	height: 42.97px;
+	padding-left: 10px;
+	border-radius: 10px;
+	background-color: #FFEFCF;
+	border-left-color: #004422;
+	border-top-color: #004422;
+	border-bottom-color: #004422;
+	border-right-color: #004422;
+	border-style: solid;
+	border-width: 0.46px;
+}
+
+
+
+.btn_cari_tiket {
+	background-color: #FDB913;
+	border-radius: 10px;
+	color: #004422;
+	border-color: #FDB913;
+	font-family: "GothamBold";
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+
+
+.btn_pesan_tiket {
+	background-color: #FDB913;
+	border-radius: 10px;
+	color: white;
+	border-color: #FDB913;
+	font-family: "GothamBold";
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+
+}
+
+.btn_lihat_detail {
+	background-color: transparent;
+	border-radius: 10px;
+	color: white;
+	border-color: transparent;
+	font-family: "GothamBold";
+	color: #004422;
+	text-decoration: underline;
+	text-decoration-color: #004422;
+	font-size: 14px;
+}
+
+
+.header_bar{
+	background-color: #8DC440;
+	min-height: 50px;
+	max-height: 50px;
+}
+
+
+.card_body_item{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 28px;
+	
+}
+
+
+.combobox_pilih_taman:focus {
+	font-family: "GothamMedium";
+	/* background-color:#FFEFCF;  */
+	font-size: 17px;
+	color: #004422;
+	height: 42.97px;
+	padding-left: 10px;
+	border-radius: 10px;
+	border-left-color: #004422;
+	border-top-color: #004422;
+	border-bottom-color: #004422;
+	border-right-color: #004422;
+	border-style: solid;
+	border-width: 0.46px;
+}
+
+
+
+.tabs_tsi {
+	background-color: white;
+	padding-left: 39px;
+	padding-right: 39px;
+	padding-top: 17px;
+	min-height: 120px;
+
+	padding-bottom: 18.8px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+
+/* tab */
+
+
+.font_header_nav {
+	font-family: "GothamMedium";
+	font-size: 16.9775px;
+	color: #FFFFFF;
+}
+.font_header_nav:hover .font_header_nav:active {
+	font-family: "GothamMedium";
+	font-size: 16.9775px;
+	color: #dddd;
+}
+
+@font-face {
+	font-family: 'GothamMedium';
+	src: url('../font/gotham-rounded/Gotham-Rounded-Medium.woff');
+}
+
+@font-face {
+	font-family: 'GothamBold';
+	src: url('../font/gotham-rounded/GothamBold.woff');
+}
+
+@font-face {
+	font-family: 'GothamLight';
+	src: url('../font/gotham-rounded/Gotham-Rounded-Light.woff');
+}
+
+@font-face {
+	font-family: 'MikadoBold';
+	src: url('../font/mikado/MikadoBold.woff');
+}
+
+
+/* Custom */

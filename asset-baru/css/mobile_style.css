@@ -1,0 +1,82 @@
+/* .mobile_style2{
+    display:block;
+} */
+.mobile_style{
+    display:block;
+}
+
+.dekstop_style{
+    display:none;
+}
+
+.mobile_tab{
+    width: 100%;
+}
+
+.owl-nav{
+    display: block;
+}
+
+#carouselControls{
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #carouselControls{
+        margin-top: 60px;
+    }
+
+    .panel_box_filter{
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .font_sub_taman_hotel {
+        font-family: "MikadoBold";
+        font-size: 38.8px;
+        color: #05542E;
+    }
+
+
+    .carousel-img {
+        max-height: 350px;
+        min-height: 350px;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    /* .mobile_style2{
+        background-color: #05542E;
+        width: 100%;
+        display: block;
+    } */
+
+    .mobile_style{
+        display: none;
+    }
+    .dekstop_style{
+        display:block;
+    }
+    .owl-nav{
+        display: none;
+    }
+    .menu_background{
+        background-color: rgb(5, 84, 46);
+    }
+
+    .navbar_background{
+        background-color: rgb(5, 84, 46);
+    }
+    
+    .background_news{
+        height: 750px;
+    }
+    .card_item_image{
+        height: 550px;
+    }
+    .footer_line{
+        font-size: 10px;
+    }
+    
+}
