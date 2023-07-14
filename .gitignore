@@ -4,6 +4,7 @@ application/cache/*
 !application/cache/index.html
 
 application/logs/*
+application/config/database.php
 !application/logs/index.html
 
 !application/*/.htaccess
@@ -30,5 +31,3 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /tests/tests/
 /tests/results/
 
-# disable database
-application/config/database.php
