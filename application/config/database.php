@@ -82,6 +82,12 @@ $db['default'] = array(
 	// 'database' => 'cms_prigen_v2',
 
 	// Version Dev Live
+	// 'hostname' => 'localhost',
+	// 'username' => 'root',
+	// 'password' => '',
+	// 'database' => 'gmyyedkenp',
+
+	// nyoba ubah setting database 
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
